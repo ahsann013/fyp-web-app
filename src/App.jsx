@@ -23,7 +23,12 @@ function App() {
         <Route path='/fyp-web-app/info' element={<Info/>} />
         <Route path='/fyp-web-app/about' element={<About />} />
         <Route path='/fyp-web-app/signup' element={<Signup />} />
-        <Route path='/fyp-web-app/dashboard' element={<DashBoard/>} />
+        <Route path='/fyp-web-app/dashboard' element={<DashBoard />} />
+         <Route path='/' />
+        <Route path='/info' element={<Info/>} />
+        <Route path='/about' element={<About />} />
+        <Route path='/signup' element={<Signup />} />
+        <Route path='/dashboard' element={<DashBoard/>} />
       </Routes>
     
       
