@@ -1,0 +1,18 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "headers": { "Location": "https://fyp-web-app.vercel.app/" }
+    },
+    {
+      "src": "/",
+     
+      "dest": "/index.html"
+    },
+   
+    { "src": "/contactUs", "dest": "/contactUs" },
+    { "src": "/about", "dest": "/about" }
+    
+  
+  ]
+}
