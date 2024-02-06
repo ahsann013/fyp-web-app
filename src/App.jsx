@@ -19,11 +19,11 @@ function App() {
      <Navbar/>
      
         <Routes>
-        <Route path='/fyp-web-app.vercel.app' />
-        <Route path='/fyp-web-app.vercel.app/info' element={<Info/>} />
-        <Route path='/fyp-web-app.vercel.app/about' element={<About />} />
-        <Route path='/fyp-web-app.vercel.app/signup' element={<Signup />} />
-        <Route path='/fyp-web-app.vercel.app/dashboard' element={<DashBoard />} />
+        <Route path='/' />
+        <Route path='/info' element={<Info/>} />
+        <Route path='/about' element={<About />} />
+        <Route path='/signup' element={<Signup />} />
+        <Route path='/dashboard' element={<DashBoard />} />
           </Routes>
      
       
