@@ -2,7 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-nav{
-
-    background-color: linear-gradient(#8EE688,#2b668b);
-}
