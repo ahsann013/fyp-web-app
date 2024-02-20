@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.spinner {
+
+    height: 100px;
+    width: 100px;
+    border: 20px solid rgb(224, 224, 224);
+    border-top-color: greenyellow ;
+    border-bottom-color: hotpink;
+    border-left-color: orchid;
+    border-right-color: orange;
+    border-radius: 50%;
+    animation: spin 3s linear infinite;
+    box-shadow: 20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
